@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.holdIcon {
+  width: 20px;
+  color: red;
+}
+.newGameIcon {
+  width: 20px;
+  color: brown;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1.8fr;
+  background-image: linear-gradient(
+    90deg,
+    rgb(97, 2, 186) 50%,
+    rgb(220, 219, 203) 50%
+  );
+  max-width: 70rem;
+  margin: 1rem 2rem;
+  padding: 2rem 4rem;
+  font-family: sans-serif;
+  text-align: center;
+  justify-items: center;
+}
+.playerInfo {
+  background-color: brown;
+  width: 10rem;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  display: block;
+  background-color: #ff6f59;
+  margin-bottom: 0.6rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+.score {
+  font-size: 4rem;
+  margin-bottom: 20rem;
+}
+.currPlayer {
+}
+.currentText {
+  background-color: #ff6f59;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+
+  margin-bottom: 0.4rem;
+}
+.currentScore {
+  font-size: 4rem;
+}
+.newGame {
+  background-color: bisque;
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 10px;
+  font-family: sans-serif;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.hold {
+  background-color: #9daf89;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 10px;
+
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 0.3rem;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.rollDice {
+  background-color: bisque;
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 0.3rem;
+  margin-top: 9rem;
+  font-family: sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 7px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 5.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 15px;
+}
+.hidden {
+  display: none;
+}
