@@ -36,7 +36,6 @@ A fun and interactive two-player dice game built using **HTML**, **CSS**, and **
 
 ## 📸 Screenshots
 
-> *(Add your own screenshot image named `screenshot.png` in the repo)*
 
 ![Pig Dice Game Screenshot](GamePreview.png)
 
